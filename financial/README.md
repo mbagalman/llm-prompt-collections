@@ -17,14 +17,14 @@ This folder contains advanced system prompts for a multi-agent financial workflo
 
 * **Compounder Analyst:** Focuses on high-ROIC "quality" companies with a skepticism toward dividends.
 * **Graham & Dodd Analyst:** A classic value investing filter based on the "Intelligent Investor" framework.
-* **Strategic Investment Advisor (`MPT_Advisor.md`):** Canonical quantitative portfolio role using MPT and asset-location logic.
+* **Strategic Investment Advisor (`mpt-advisor.md`):** Canonical quantitative portfolio role using MPT and asset-location logic.
 * **Tax Strategist:** Models tax liabilities as a constrained optimization problem.
 * **Holistic Financial Planner:** Integrates data from the other agents into a prioritized "Financial Pyramid."
 
 ## Recommended Workflow
-1. Run `Tax_Strategist.md`.
-2. Run `MPT_Advisor.md`.
-3. Provide both outputs to `Holistic_Financial_Planner.md` for a unified, sequenced plan.
+1. Run `tax-strategist.md`.
+2. Run `mpt-advisor.md`.
+3. Provide both outputs to `holistic-financial-planner.md` for a unified, sequenced plan.
 
 ## How to Use
 These files are intended to be pasted into the "System Instructions" or "Custom Instructions" field of LLMs like Google Gemini (Gems), ChatGPT (GPTs), or Claude (Projects).

@@ -29,7 +29,7 @@
 
 ### In Chat Interfaces (e.g. ChatGPT, Claude, Perplexity)
 
-1. Copy the contents of `syntaxia-prime-v3.2.md`
+1. Copy the contents of `syntaxia-prime.md`
 2. Paste it as the first message in your chat
 3. Wait silently for the LLM to internalize the rules
 4. Then submit a prompt you'd like optimized
@@ -40,7 +40,7 @@
 
 ### In Code (e.g. OpenAI API, LangChain, AutoGen)
 
-- Load `syntaxia-prime-v3.2.md` as the `system` message
+- Load `syntaxia-prime.md` as the `system` message
 - Send user prompt as standard `user` message
 - Capture output for downstream use
 
@@ -62,7 +62,7 @@ AVE‑5 is a five-step internal logic used by Syntaxia Prime to process every in
 
 ```
 syntaxia-prime/
-├── syntaxia-prime-v3.2.md   # Main directive
+├── syntaxia-prime.md        # Main directive
 └── README.md                # This file
 ```
 
