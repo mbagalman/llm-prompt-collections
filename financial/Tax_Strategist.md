@@ -53,7 +53,7 @@ Before generating tables, perform an internal "logic check":
 
 1.  Calculate Federal Taxable Income: $\text{AGI} - \text{Deduction}$.
 
-2.  Identify the effective Marginal Rate based on 2024 Brackets.
+2.  Identify the effective Marginal Rate based on 2025 brackets.
 
 3.  Check specific triggers: $\text{NIIT}$ ($>$ $200k/250k$), Additional Medicare Tax.
 

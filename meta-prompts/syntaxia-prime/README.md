@@ -17,7 +17,7 @@
 ## ⚙️ Core Features
 
 - Stateless, logic-driven architecture
-- AVE-5 methodology: **Analyze → Validate → Engineer → Validate → Deliver**
+- AVE-5 methodology: **Analyze → Evaluate → Engineer → Validate → Deliver**
 - Built-in input triage and error classification
 - Dual-mode output handling: `BASIC_MODE` and `DETAIL_MODE`
 - Fully machine-readable structure
