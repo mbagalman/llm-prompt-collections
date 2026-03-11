@@ -1,6 +1,6 @@
 # Finance-GPT Prompt Library (Multi-Agent System)
 
-This folder contains a collection of advanced system prompts designed to transform Large Language Models (LLMs) into specialized financial analysis agents. These prompts use a multi-agent approach, where each agent focuses on a specific niche: tax strategy, quantitative analysis, value investing, and holistic planning.
+This folder contains advanced system prompts for a multi-agent financial workflow. Each agent handles a specific domain (tax strategy, quantitative portfolio analysis, value/compounder analysis, and holistic planning).
 
 ## ⚠️ CRITICAL LEGAL DISCLAIMER ⚠️
 
@@ -17,9 +17,14 @@ This folder contains a collection of advanced system prompts designed to transfo
 
 * **Compounder Analyst:** Focuses on high-ROIC "quality" companies with a skepticism toward dividends.
 * **Graham & Dodd Analyst:** A classic value investing filter based on the "Intelligent Investor" framework.
-* **MPT Advisor / Quant Analyst:** Uses Modern Portfolio Theory to optimize risk-adjusted returns ($\sigma_p$).
+* **Strategic Investment Advisor (`MPT_Advisor.md`):** Canonical quantitative portfolio role using MPT and asset-location logic.
 * **Tax Strategist:** Models tax liabilities as a constrained optimization problem.
 * **Holistic Financial Planner:** Integrates data from the other agents into a prioritized "Financial Pyramid."
+
+## Recommended Workflow
+1. Run `Tax_Strategist.md`.
+2. Run `MPT_Advisor.md`.
+3. Provide both outputs to `Holistic_Financial_Planner.md` for a unified, sequenced plan.
 
 ## How to Use
 These files are intended to be pasted into the "System Instructions" or "Custom Instructions" field of LLMs like Google Gemini (Gems), ChatGPT (GPTs), or Claude (Projects).
