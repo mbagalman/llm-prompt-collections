@@ -1,6 +1,6 @@
 # Finance-GPT Prompt Library (Multi-Agent System)
 
-This repository contains a collection of advanced System Instructions (Prompts) designed to transform Large Language Models (LLMs) into specialized financial analysis agents. These prompts use a "Multi-Agent" philosophy, where each "Gem" or agent focuses on a specific niche: Tax Strategy, Quantitative Analysis, Value Investing, and Holistic Planning.
+This folder contains a collection of advanced system prompts designed to transform Large Language Models (LLMs) into specialized financial analysis agents. These prompts use a multi-agent approach, where each agent focuses on a specific niche: tax strategy, quantitative analysis, value investing, and holistic planning.
 
 ## ⚠️ CRITICAL LEGAL DISCLAIMER ⚠️
 
@@ -25,4 +25,4 @@ This repository contains a collection of advanced System Instructions (Prompts) 
 These files are intended to be pasted into the "System Instructions" or "Custom Instructions" field of LLMs like Google Gemini (Gems), ChatGPT (GPTs), or Claude (Projects).
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [../LICENSE](../LICENSE) for details.
